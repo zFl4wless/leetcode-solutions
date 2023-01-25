@@ -1,3 +1,10 @@
+/**
+ * Two Sum
+ *
+ * Solved: Nov 05, 2022 12:52
+ * @see https://leetcode.com/problems/two-sum/submissions/837313679/
+ */
+
 function twoSum(nums: number[], target: number): number[] {
     for (let i = 0; i < nums.length; i++) {
         const firstNum = nums[i];

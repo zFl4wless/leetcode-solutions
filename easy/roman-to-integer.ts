@@ -1,3 +1,10 @@
+/**
+ * Roman to Integer
+ * 
+ * Solved: Nov 04, 2022 23:57
+ * @see https://leetcode.com/problems/roman-to-integer/submissions/837029934/
+ */
+
 const romanNumerals = {
     I: 1,
     V: 5,
