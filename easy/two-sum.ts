@@ -5,7 +5,7 @@
  * @see https://leetcode.com/problems/two-sum/submissions/837313679/
  */
 
-function twoSum(nums: number[], target: number): number[] {
+export function twoSum(nums: number[], target: number): number[] {
     for (let i = 0; i < nums.length; i++) {
         const firstNum = nums[i];
         for (let j = 0; j < nums.length; j++) {

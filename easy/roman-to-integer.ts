@@ -1,11 +1,11 @@
 /**
  * Roman to Integer
- * 
+ *
  * Solved: Nov 04, 2022 23:57
  * @see https://leetcode.com/problems/roman-to-integer/submissions/837029934/
  */
 
-const romanNumerals = {
+const romanNumerals: { [key: string]: number } = {
     I: 1,
     V: 5,
     X: 10,
@@ -15,7 +15,7 @@ const romanNumerals = {
     M: 1000,
 };
 
-function romanToInt(s: string): number {
+export function romanToInt(s: string): number {
     let result = 0;
     let lastChar = "";
     for (let i = 0; i < s.length; i++) {
